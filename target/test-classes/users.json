@@ -1,0 +1,11 @@
+{
+  "NewUser": {
+    "name": "Gaber",
+    "job": "Testing"
+  },
+  "UpdateUser": {
+    "name": "Gaberupdated",
+    "job": "Testing"
+  }
+}
+
