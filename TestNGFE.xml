@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing CyShield Website" thread-count="2" parallel="tests">
+
+    <test thread-count="2"  name="RegressionChromeTests">
+        <parameter name="Browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="Tests.WebRegistrationTest"/>
+        </classes>
+    </test>
+
+
+
+    <test thread-count="2"  name="RegressionFirefoxTests">
+        <parameter name="Browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="Tests.WebRegistrationTest"/>
+        </classes>
+    </test>
+
+
+
+</suite>

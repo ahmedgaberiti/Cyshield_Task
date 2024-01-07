@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing CyShield Website Mobile" >
+
+    <test   name="RegressionMobile">
+        <parameter name="Mobile"  value="Mobile">
+        </parameter>
+        <classes>
+            <class name="Tests.MobileTests"/>
+        </classes>
+    </test>
+
+
+</suite>
